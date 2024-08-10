@@ -44,7 +44,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="relative flex place-items-center z-negative">
+      <div className="relative flex place-items-center">
         <Image
           className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
           src="/mainlogonode9x.png"
