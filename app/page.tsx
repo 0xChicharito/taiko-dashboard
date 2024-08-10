@@ -1,4 +1,4 @@
-import Image from 'next/image'
+import Image from 'next/image';
 import { FaTwitter, FaTelegramPlane } from 'react-icons/fa';
 
 export default function Home() {
@@ -18,7 +18,7 @@ export default function Home() {
           >
             <Image
               src="/lightnode9xlogo.png"
-              alt="Node9X Logo"
+              alt="Node 9X Logo"
               className="dark:invert"
               width={100}
               height={24}
@@ -49,15 +49,13 @@ export default function Home() {
           className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
           src="/mainlogonode9x.png"
           alt="mainlogonode9x.png Logo"
-          //width={180}
           width={360}
-          //height={37}
           height={74}
           priority
         />
         <p className="mt-4 text-center text-lg font-semibold text-gray-800 dark:text-white">
-      Trusted PoS Node Operator
-    </p>
+          Trusted PoS Node Operator
+        </p>
       </div>
 
       <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
@@ -68,13 +66,13 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{' '}
+            Services{' '}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
+            Find in-depth information about Node 9X services and offerings.
           </p>
         </a>
 
@@ -85,13 +83,13 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{' '}
+            Explorer{' '}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
+            Explore Node 9X capabilities and more.
           </p>
         </a>
 
@@ -130,5 +128,5 @@ export default function Home() {
         </a>
       </div>
     </main>
-  )
+  );
 }
