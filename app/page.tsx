@@ -33,9 +33,9 @@ export default function Home() {
           className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
           src="/lightnode9xlogo.png"
           alt="lightnode9xlogo.png Logo"
-          #width={180}
+          //width={180}
           width={360}
-          #height={37}
+          //height={37}
           height={74}
           priority
         />
