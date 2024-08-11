@@ -1,13 +1,15 @@
 import Image from 'next/image';
 import { FaTelegramPlane, FaTwitter } from 'react-icons/fa';
+import './styles.css';
+
 
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24 bg-white text-gray-800">
       <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-white pb-6 pt-8 backdrop-blur-2xl lg:static lg:w-auto lg:rounded-xl lg:border lg:bg-white lg:p-4">
+        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-blue-300 bg-white pb-6 pt-12 backdrop-blur-2xl lg:static lg:w-auto lg:rounded-xl lg:border lg:bg-white lg:p-4">
           Welcome to &nbsp;
-          <code className="font-mono font-bold">Node 9X</code>
+          <code className="font-mono font-bold rainbow-text">Node 9X</code>
         </p>
         <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white lg:static lg:h-auto lg:w-auto lg:bg-none">
           <a
@@ -37,7 +39,7 @@ export default function Home() {
           height={74}
           priority
         />
-        <p className="ml-4 text-3xl font-semibold text-gray-800">
+        <p className="ml-4 text-5xl font-semibold rainbow-text">
           Trusted Node Operator
         </p>
       </div>
