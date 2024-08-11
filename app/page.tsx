@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import { FaTelegramPlane, FaTwitter } from 'react-icons/fa';
 
 export default function Home() {
   return (
@@ -10,7 +11,7 @@ export default function Home() {
         </p>
         <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white lg:static lg:h-auto lg:w-auto lg:bg-none">
           <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
+            className="pointer-events-none flex place-items-center gap-2 p-4 lg:pointer-events-auto lg:p-0"
             href="https://node9x.com/"
             target="_blank"
             rel="noopener noreferrer"
@@ -19,15 +20,15 @@ export default function Home() {
               src="/lightnode9xlogo.png"
               alt="Node 9X Logo"
               className=""
-              width={100}
-              height={24}
+              width={180}
+              height={46}
               priority
             />
           </a>
         </div>
       </div>
 
-      <div className="relative flex place-items-center">
+      <div className="relative flex items-center justify-center">
         <Image
           className="relative"
           src="/mainlogonode9x.png"
@@ -36,12 +37,12 @@ export default function Home() {
           height={74}
           priority
         />
-        <p className="mt-4 text-center text-3xl font-semibold text-gray-800">
-          Trusted PoS Node Operator
+        <p className="ml-4 text-3xl font-semibold text-gray-800">
+          Trusted Node Operator
         </p>
       </div>
 
-      <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left gap-8">
+      <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left gap-8 px-4">
         <a
           href="https://service.node9x.com"
           className="group rounded-lg border border-gray-300 px-5 py-4 transition-colors hover:border-gray-400 hover:bg-gray-100"
@@ -108,6 +109,26 @@ export default function Home() {
           <p className="m-0 max-w-[30ch] text-sm opacity-75">
             We are using infrastructure of Hetzner. Ensuring uptime and stability of system.
           </p>
+        </a>
+      </div>
+
+      {/* Icons Telegram và Twitter */}
+      <div className="fixed bottom-4 right-4 flex space-x-4">
+        <a
+          href="https://t.me/Oxchicharito"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-500 hover:text-blue-700"
+        >
+          <FaTelegramPlane size={28} />
+        </a>
+        <a
+          href="https://twitter.com/0xchicharito"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-400 hover:text-blue-600"
+        >
+          <FaTwitter size={28} />
         </a>
       </div>
     </main>
