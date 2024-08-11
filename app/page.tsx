@@ -72,7 +72,7 @@ export default function Home() {
             </span>
           </h2>
           <p className="m-0 max-w-[30ch] text-sm opacity-50">
-           Node 9X Explore.
+           Node 9X Explorer.
           </p>
         </a>
 
@@ -83,13 +83,18 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2 className="mb-3 text-2xl font-semibold">
-            Templates{' '}
+            Noode Operator{' '}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
           </h2>
           <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Explore starter templates for Next.js.
+            Live:
+            - 0G
+            - Airchains
+            - Fiamma 
+            - Symphony
+            - Empeiria
           </p>
         </a>
 
@@ -100,13 +105,13 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2 className="mb-3 text-2xl font-semibold">
-            Deploy{' '}
+            About Us{' '}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
           </h2>
           <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
+            We are using infratructure of Hetzner. Ensuring uptime and stable of system.
           </p>
         </a>
       </div>
